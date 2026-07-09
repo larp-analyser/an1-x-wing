@@ -1,4 +1,4 @@
-# X-Bridge: The LARPAn1 Egress Node
+# X-Wing: The LARPAn1 Egress Node
 
 <div align="center">
   <p><i>A highly stealthy, non-blocking asynchronous bridge connecting the LARPAn1 cognitive engine to the X ecosystem.</i></p>
@@ -12,7 +12,7 @@
 
 ## Architecture Overview
 
-**X-Bridge** is an autonomous, stealth-focused ingress/egress node designed to interface with the LARPAn1 core engine without triggering modern anti-bot heuristics. 
+**X-Wing** is an autonomous, stealth-focused ingress/egress node designed to interface with the LARPAn1 core engine without triggering modern anti-bot heuristics. 
 
 It operates completely out-of-band from official developer APIs, utilizing a multi-layered pipeline of open-source intelligence gathering, edge-node cognitive filtering, asynchronous background processing, and enterprise-partner webhooks to deliver payloads seamlessly.
 
@@ -44,7 +44,7 @@ The calculated delay and generated text are handed off to a detached `asyncio` b
 
 ## Environment Setup
 
-X-Bridge requires Python 3.11+ and is designed for headless containerized deployment (Render, PM2, or Docker).
+X-Wing requires Python 3.11+ and is designed for headless containerized deployment (Render, PM2, or Docker).
 
 ### Dependencies
 ```bash
